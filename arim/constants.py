@@ -21,5 +21,6 @@ DYNINTR_ENDPOINT = 'dhcp/dynamic_interface'
 
 DYNINTR_RANGE = BASE_URL + 'dhcp/range/{}/'.format(settings.PUBLIC_RANGE_PK)
 DYNINTR_CTNR = BASE_URL + 'core/ctnr/{}/'.format(settings.PUBLIC_CTNR_PK)
+DYNINTR_WORKGROUP = BASE_URL + 'core/ctnr/{}/'.format(settings.PUBLIC_WORKGROUP_PK)
 
 SYSTEM_NAME = 'public-{}-Wireless'
